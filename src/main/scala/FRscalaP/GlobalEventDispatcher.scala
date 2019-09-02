@@ -1,0 +1,5 @@
+package FRscalaP
+
+class GlobalEventDispatcher {
+
+}
