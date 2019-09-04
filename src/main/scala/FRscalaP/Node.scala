@@ -1,5 +1,11 @@
 package FRscalaP
 
-class Node {
+class Node[T, V](val func: T => V) {
 
+
+  def inputSignal =
+    new Signal[T]
+
+  def outputSignal =
+    new Signal[V]
 }

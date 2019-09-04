@@ -1,5 +1,5 @@
 package FRscalaP
 
-class Signal {
+class Signal[T]() {
 
 }
